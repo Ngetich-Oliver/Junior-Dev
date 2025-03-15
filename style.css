@@ -1,0 +1,171 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('logo.jpg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    padding-top: 120px; /* Ensures enough space from the fixed navbar */
+}
+
+/* Fieldset and Button Styling */
+fieldset {
+    background-color: antiquewhite;
+}
+button {
+    background-color: lime;
+    height: 50px;
+    border-radius: 10px;
+    color: White;
+    padding: 10px;
+    margin-right: 400px;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+/* Form Styling */
+form {
+    box-sizing: border-box;
+    border: 3px solid whitesmoke;
+    border-radius: 2px;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgb(204, 255, 122);
+}
+
+/* Navbar Styling */
+nav.iebc {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center; /* Aligns logo and nav items vertically */
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    color: #00FF00;
+}
+
+.two ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.two ul li {
+    margin-left: re1m; /* Added more spacing between list items */
+}
+
+.two ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.two ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Hero Section Fix */
+.hero {
+    padding: 120px 20px 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Background for readability */
+    margin-top: 60px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: orange;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+section h1 {
+    font-size: 2rem;
+    color: #00FF00;
+    text-align: center;
+    margin-bottom: 10px; /* Reduced margin between h1 and h2 */
+}
+
+section h2 {
+    font-size: 1.75rem;
+    color: #00FF00;
+    text-align: center;
+    margin-bottom: 15px; /* Reduced margin between h2 and other content */
+}
+
+section p, section ol {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 0px auto;
+    color: #333;
+
+}
+
+/* Contact Section Styling */
+#contact a {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .two ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .two ul li {
+        margin: 10px 0;
+    }
+}
+footer{
+    max-width: 100%;
+    color: #00FF00;
+    background-color: #555;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+   

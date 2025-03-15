@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citizen by registration</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body background="logo.jpg.jpg">
+    <nav class="iebc">
+        <div class="logo">
+        <h1>IEBC</h1>
+        <div class="two">
+    <ul>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+       <li><a href="#management">Managemement</a></li> 
+        <li><a href="#contact">Contact Us</a></li>
+        <li> <a href="create.php">Sign Up</a></li>
+        <li> <a href="Login.php">Login</a></li>
+    </ul>
+        </div>
+    </nav>
+    
+    Citizenship by registration:
+    <form action="evaluate2.php" method="post">
+        <p><label for="FullName">Full Name</label>
+        <input type="text" name="name" id="name" autofocus required></p>
+        <p><label for="Gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="0">Select gender</option>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+        </select></p>
+        <p><label for="Nationality">Other Nationality</label>
+        <input type="text" name="nationality" id="nationality" autofocus required></p>
+        <p><label for="Passport">Passport Number</label>
+        <input type="text" name="passport" id="passport" autofocus required></p>
+        <p><label for="IDNumber">Kenyan ID Number</label>
+        <input type="text" name="idnumber" id="idnumber" autofocus required></p>
+        <p><label for="voterId">Voter ID Number</label>
+        <input type="text" name="voterId" id="voterId" autofocus required></p>
+        <p><label for="county">County</label>
+        <input type="text" name="county" id="county" autofocus required></p>
+        <p><label for="Location">Current Location</label>
+        <input type="text" name="location" id="location" autofocus required></p>
+        <button>Submit</button>
+    </form>
+    <button id="logout">Logout</button>
+<script src="index.js"></script>            
+<footer>
+    <p>IEBC your vote,your future</p>
+</footer>
+</body>
+</html>
